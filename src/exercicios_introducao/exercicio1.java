@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios_introducao;
 
 import java.util.Scanner;
 // Esse exercicio eu fiz para ler a entrada que a pessoa digitar. O 1_5 é com a entrada que está no exercicio.
