@@ -22,7 +22,7 @@ public class Ex3While {
 
 			System.out.println("Pessoa Desenvolvedora: (1-Backend, 2-Frontend, 3-Mobile, 4-FullStack): ");
 			desenvolvedora = leia.nextInt();
-			//processo e saida.
+			// processo e saida.
 
 			totalPessoas++;
 			somaIdade += idade;
@@ -40,12 +40,12 @@ public class Ex3While {
 			System.out.println("Deseja continuar? (S/N)");
 			res = leia.next();
 		}
-		float mediaIdade = somaIdade/totalPessoas;	
+		float mediaIdade = somaIdade / totalPessoas;
 		System.out.println("Número de pessoas desenvolvedoras Backend: " + totalBack);
-        System.out.println("Número de Mulheres Cis e Trans desenvolvedoras Frontend: " + mtFront);
-        System.out.println("Número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: " + htMobile);
-        System.out.println("Número de Não Binários desenvolvedores FullStack menores de 30 anos: " + nbFullstack);
-        System.out.println("Número total de pessoas que responderam à pesquisa: " + totalPessoas);
-        System.out.printf("Média de idade das pessoas que responderam à pesquisa: %.2f\n", mediaIdade);
+		System.out.println("Número de Mulheres Cis e Trans desenvolvedoras Frontend: " + mtFront);
+		System.out.println("Número de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: " + htMobile);
+		System.out.println("Número de Não Binários desenvolvedores FullStack menores de 30 anos: " + nbFullstack);
+		System.out.println("Número total de pessoas que responderam à pesquisa: " + totalPessoas);
+		System.out.printf("Média de idade das pessoas que responderam à pesquisa: %.2f\n", mediaIdade);
 	}
 }
